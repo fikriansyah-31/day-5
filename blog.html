@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <title>My Project</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-left">
+        <img src="./assets/img/logo.png" alt="Logo" />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">My Project</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Form -->
+    <form class="form" onsubmit="addBlog(event)">
+      <h2 class="text-center">Add My Project</h2>
+
+      <!-- Project -->
+      <div>
+        <label class="label" for="input-project">Project Name</label>
+        <input class="input" type="text" id="input-project" />
+      </div>
+      <!-- Project -->
+
+      <!-- Date -->
+      <div class="box-date" style="margin-top: 15px">
+        <div class="box-date1">
+          <label class="label" for="input-startdate">Start Date</label>
+          <input class="input" type="date" id="input-startdate" />
+        </div>
+        <div class="box-date2">
+          <label class="label" for="input-enddate">End Date</label>
+          <input class="input" type="date" id="input-enddate" />
+        </div>
+      </div>
+      <!-- Date -->
+
+      <!-- Description -->
+      <div style="margin-top: 15px">
+        <label for="input-description" class="label">Description</label>
+        <textarea id="input-description" class="input-email"></textarea>
+      </div>
+      <!-- Description -->
+
+      <!-- Checkbox -->
+      <div style="margin-top: 15px">
+        <label class="label">Technologies</label>
+        <div class="check-box" style="margin-top: 10px">
+          <div class="check-box1">
+            <input
+              type="checkbox"
+              id="nodejs"
+              value="fa-brands fa-node-js icon-size"
+            />
+            <span class="checkboxtext"> Node Js </span>
+          </div>
+          <div class="check-box2">
+            <input
+              type="checkbox"
+              id="reactjs"
+              value="fa-brands fa-react icon-size"
+            />
+            <span class="checkboxtext"> React Js</span>
+          </div>
+        </div>
+        <div class="check-box" style="margin-top: 20px">
+          <div class="check-box1">
+            <input
+              type="checkbox"
+              id="vuejs"
+              value="fa-brands fa-vuejs icon-size"
+            />
+            <span class="checkboxtext"> Vue Js </span>
+          </div>
+          <div class="check-box2">
+            <input
+              type="checkbox"
+              id="python"
+              value="fa-brands fa-python icon-size"
+            />
+            <span class="checkboxtext"> Python </span>
+          </div>
+        </div>
+      </div>
+      <!-- Checkbox -->
+
+      <!-- Image -->
+      <div style="margin-top: 15px">
+        <label class="label">Upload Image</label>
+        <div class="input-blog-image">
+          <label for="input-image">
+            <p>Attach File</p>
+            <img src="./assets/img/upload.png" alt="file" />
+          </label>
+          <input type="file" id="input-image" hidden />
+        </div>
+      </div>
+      <!-- Image -->
+
+      <div class="box">
+        <button class="button">Submit</button>
+      </div>
+    </form>
+    <!-- Form -->
+
+    <!-- Card -->
+    <div class="blog">
+      <h1 class="text-project">My Project</h1>
+      <div id="blogs" class="box-blog">
+        <div class="box-blog1">
+          <img
+            src="./assets/img/orang.jfif"
+            class="image"
+            alt=""
+          />
+          <a href="./detail.html">
+            <h3>Judul</h3>
+          </a>
+          <p>Durasi: 3 bulan yang lalu</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, non.
+            Dolores molestias pariatur, nobis consequatur quis qui? Illo, sed
+            possimus?
+          </p>
+          <i class="fa-brands fa-node-js icon-size"></i>
+          <i class="fa-brands fa-react icon-size"></i>
+          <div class="button-group">
+            <div class="button-child">
+              <button class="button-edit">Edit</button>
+            </div>
+            <div class="button-child">
+              <button class="button-delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card -->
+    <script src="blog.js"></script>
+  </body>
+</html>

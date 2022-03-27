@@ -1,0 +1,79 @@
+.blog{
+    width: 1200px;
+    margin: 50px auto;
+}
+.text-project {
+    text-align: center;
+}
+.box-blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    justify-content: start;
+}
+.box-blog1 {
+    width: 280px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(7, 7, 7);
+}
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+.box {
+    display: flex;
+}
+.box-date {
+    display: flex;
+}
+.box-date1 {
+    flex: 50%;
+}
+.box-date2 {
+    flex: 50%;
+    margin-left: 10px;
+}
+.check-box{
+    display: flex;
+}
+.check-box1 {
+    flex: 50%
+}
+.check-box2 {
+    flex: 50%;
+}
+.checkboxtxt {
+    font-size: 100%;
+    display: inline;
+}
+.input[type="checkbox"]{
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding: 5px;
+}
+.input-blog-image {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background:  #f4f3f3;
+    border: 1px solid #0a0a0a;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.input-blog-image label p {
+    font-size: 15px;
+}
+.input-blog-image label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

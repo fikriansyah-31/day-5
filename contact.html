@@ -1,0 +1,62 @@
+// Contact html
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+    
+    <script src="./form.js"></script>
+  </head>
+
+ 
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="./assets/img/logo.png" alt="Logo" />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">My Project</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+
+<form class="form">
+  <h2>GET IN TOUCH</h2>
+      <div>
+        <label for="input-name">Name </label> <br>
+        <input type="text" id="input-name" >
+        </div>
+        <div>
+          <label for="input-email">Email </label>
+          <input type="email" id="input-email" >    
+      </div>
+      <div>
+
+        <label for="input-phone">Phone Number </label>
+                    <input type="number" id="input-phone" >
+                </div>
+                <div>
+                    <label for="input-subject">Subject </label> <br>
+                    <select id="input-subject">
+                        <option value="">Select here</option>
+                        <option value="Let's Talk">Let's Talk</option>
+                        <option value="Let's Collaboration">Let's Collaboration</option>
+                        <option value="I am Hiring">I am Hiring</option>
+                    </select>
+                </div> 
+                <div>
+                    <label for="input-message">Your Message</label> <br>
+                    <textarea id="input-message" ></textarea>
+                </div>
+                    <button class="submit" onclick="submitData()" type="button">Submit</button>
+        </form> 
+</body>
+</html>

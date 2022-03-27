@@ -1,0 +1,217 @@
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+
+/* Container */
+.container {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section {
+  box-shadow: 5px 5px 5px whitesmoke;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  width: 85%;
+}
+section .section-left {
+  padding: 70px;
+  flex: 60%;
+}
+section .section-right {
+  padding: 40px;
+  flex: 40%;
+}
+/* Container */
+
+/* Button */
+.button-contact {
+  margin-top: 40px;
+}
+.button {
+  margin-right: 20px;
+  background-color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.button-group {
+  margin-top: 40px;
+}
+.button-item-group {
+  background-color: black;
+  margin-left: 12px;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* Button */
+
+.card-image {
+  padding-bottom: 10px;
+  text-align: center;
+  width:  80%;
+  box-shadow: 0px 3px 12px whitesmoke;
+}
+.image {
+  border-radius: 5px;
+}
+body{
+  margin: 0px;
+}
+nav {
+  background-color: #7c7c7c;
+  display: flex;
+  height: 8vh;
+}
+
+
+.nav-left {
+  display: flex;
+  flex: 50%;
+  padding-left: 100px;
+  align-items: center;
+}
+nav .nav-left li {
+  display: inline;
+}
+nav .nav-left a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  font-weight: bold;
+}
+nav .nav-left a:hover {
+  color: grey;
+  font-size: 16px;
+}
+
+
+
+.nav-right {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+nav .nav-right a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 10px;
+}
+
+/* Css Contact */
+
+.form {
+  width: 400px;
+  margin: 150px auto;
+  margin-top: 15px;
+}
+
+.form h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form div {
+  margin-top: 20px;
+}
+
+.form div label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form input {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.form select {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.form textarea {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+  height: 100px;
+  resize: vertical;
+
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+
+}
+
+.form button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 30px;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Detail Blog */
+
+.text-center {
+  text-align: center;
+}
+.box {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto;
+}
+.box-layout {
+  flex: 50%;
+}
+.box-layout1 {
+  flex: 50%;
+  margin-left: 20px;
+}
+.image {
+  width: 100%;
+}
+.item2 {
+  margin-top: 20px;
+}
+.text-tech {
+  display: flex;
+}
+.text-tech1 {
+  flex: 50%;
+}
+.text-blog {
+  width: 1200px;
+  margin: 50px auto;
+}
