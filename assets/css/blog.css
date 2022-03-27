@@ -35,50 +35,26 @@
     flex: 50%;
     margin-left: 10px;
 }
-.checkbox {
+.check-box{
     display: flex;
-    justify-content: space-between;
-    margin: 20px -15px;
-    gap: 15px;
-    flex-wrap: wrap;
-    width: 70%;
-
 }
-
-.checkbox div {
-    display: flex;
-    width: 45%;
+.check-box1 {
+    flex: 50%
 }
-
-
-
-.checkbox label {
-
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
+.check-box2 {
+    flex: 50%;
 }
-.button-group .button-edit{
-
-    font-size: 17px;
-    border-radius: 8px;
-    border: none;
-    color: rgb(247, 244, 244);
-    cursor: pointer;
-    border: none;
+.checkboxtxt {
+    font-size: 100%;
+    display: inline;
 }
-.button-group .button-delete {
-    
-  
-    font-size: 17px;
-    border-radius: 8px;
-    border: none;
-    color: rgb(247, 244, 244);
-    cursor: pointer;
-}
-
+.input[type="checkbox"]{
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding: 5px;
 }
 .input-blog-image {
     width: 100%;
@@ -101,3 +77,25 @@
     align-items: center;
     justify-content: space-between;
 }
+.button-edit {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 45px;
+    margin-left: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 20px -5px;
+  }
+  .button-delete {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: none;
+    margin: 20px -5px;
+  }
+  .text-project {
+    text-align: center;
+  }

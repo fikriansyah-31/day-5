@@ -11,7 +11,6 @@ function addBlog(event) {
   let python = document.getElementById("python").checked;
   let start_date = document.getElementById("input-startdate").value;
   let end_date = document.getElementById("input-enddate").value;
-
   validation(project, description, image);
   image = URL.createObjectURL(image[0]);
   if (nodejs == true) {
@@ -70,7 +69,7 @@ function renderBlog() {
     <a href="./detail.html">
     <h3>Judul</h3>
     </a>
-    <h3>durasi: 3 Bulan</h3>
+     <h3>durasi: 3 Bulan</h3>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, non.
       Dolores molestias pariatur, nobis consequatur quis qui? Illo, sed
@@ -119,7 +118,6 @@ function renderBlog() {
         `;
   }
 }
-
 function getDate(star_date, end_date){
   let stardate= new Date(star_date);
   let enddate = new Date(end_date);

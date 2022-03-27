@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 .container section {
-  box-shadow: 5px 5px 5px whitesmoke;
+  box-shadow: 5px 5px 5px rgb(20, 20, 20);
   background-color: white;
   border-radius: 10px;
   display: flex;
